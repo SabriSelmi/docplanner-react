@@ -1,0 +1,10 @@
+.footer{
+    margin-top:5%;
+    padding-top:5%;
+    border-top:1px solid #e7dcdc;
+}
+.f1,.f2{
+    font-size: 0.8rem;
+    color: #ababab;
+    text-align: center;
+}

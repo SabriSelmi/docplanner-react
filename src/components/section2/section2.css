@@ -1,0 +1,107 @@
+.slideanim {visibility:hidden;}
+.slide {
+    /* The name of the animation */
+    animation-name: slide;
+     
+    /* The duration of the animation */
+    animation-duration: 1s; 
+    
+    /* Make the element visible */
+    visibility: visible; 
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    } 
+}
+
+
+.sliderightanim {visibility:hidden;}
+.slide1 {
+    /* The name of the animation */
+    animation-name: slide1;
+     
+    /* The duration of the animation */
+    animation-duration: 1s; 
+    
+    /* Make the element visible */
+    visibility: visible; 
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide1 {
+    0% {
+        opacity: 0;
+        transform: translateX(50%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateX(0%);
+    } 
+}
+
+
+
+
+
+
+
+
+.colored-text1{
+
+    background: #00b39b;
+    color: #fff;
+    text-shadow: none;
+    box-sizing: border-box;
+    border-radius: 2%;
+    margin-left:6%;
+    margin-top:3%;
+    z-index: -1;
+        
+}
+.colored-text1 h3{
+    font-weight: 400;
+}
+.form{
+    min-width:12rem;
+    max-width:14rem;
+}
+
+.img1{
+        
+    margin-top:10%;
+}
+.image1{
+    width:100%;
+    height:auto;
+}
+
+#sel1{
+    margin-top:20%;
+    color:black;
+    font-weight: 600;
+    font-size: 80%; 
+}
+li{
+    list-style: none;
+      
+}
+.ulist{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap; 
+}
+@media screen and (max-width:597px){
+    
+    .colored-text1{
+        margin-left:3%;
+        margin-right:3%;
+    }
+}

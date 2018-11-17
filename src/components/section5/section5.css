@@ -1,0 +1,65 @@
+
+.lien{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    padding-right:5%;
+    
+   
+    
+    
+}
+.imag1 img,.imag2 img,.imag3 img,.imag4 img,.imag5 img,.imag6 img{
+    padding-right:5%;
+    padding-left:5%;
+    padding-top:5%;
+    padding-bottom:5%;
+    box-sizing: border-box;
+    border-radius: 8%;
+    
+   
+    
+    
+}
+
+
+.text-label{
+    color: #747474;
+    font-weight: 600;
+    font-size: 100%;
+    
+}
+.label{
+    
+    box-sizing: border-box;
+    border-radius: 5%;
+    padding: 1%;
+    background-color: #3d83df;
+    font-size:80%;
+    text-align: center;
+    color:white;
+    
+    
+    
+}
+
+.imag1:hover,.imag2:hover,.imag3:hover,.imag4:hover,.imag5:hover,.imag6:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    
+}
+.imag1,.imag2,.imag3,.imag4,.imag5,.imag6{
+    text-align: center;
+    cursor: pointer;
+    
+   
+    
+    
+}
+.label:hover{
+    
+    
+    background-color: #3174cc;
+    
+    
+}

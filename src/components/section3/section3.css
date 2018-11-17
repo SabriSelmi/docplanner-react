@@ -1,0 +1,29 @@
+.the-worlds{
+    background: url(logo.png) no-repeat;
+    background-size: cover;
+  
+    
+    
+}
+
+.part1{
+    
+    color: #00b39b;
+    display: flex;
+    flex-direction: column;
+    
+ }
+
+ .text-worlds{
+    margin:10% 10% 6% 10%;
+    
+}
+
+.under-text{
+    text-align: center;
+}
+
+.part2{
+    height:580px;
+    position:relative;
+}
